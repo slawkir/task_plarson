@@ -1,0 +1,54 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+height: 50px;
+background: lightcyan;
+}
+
+.userlist {
+  width: 200px;
+  height: calc(100vh - 150px);
+  background: burlywood;
+  float: left;
+  overflow:scroll
+  
+}
+
+ul {
+  margin: auto;
+  width: 100px;
+}
+
+li {
+font-size: 20px;
+}
+
+.windowchat {
+  background: lightgreen;
+  height: calc(100vh - 150px);
+  overflow: scroll;
+}
+
+p {
+  font-size: 20px;
+}
+
+footer {
+background: lightgray;
+height: 100px;
+clear: both;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 22px;
+}
